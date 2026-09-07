@@ -1937,6 +1937,7 @@
 	name = "Saccharine Swordspear"
 	desc = "Keep the rest at arm's length, lest you're burdened with the pain of rememberance."
 	force = 25
+	force_wielded = 25
 	force_wielded = 35
 	possible_item_intents = list(/datum/intent/sword/thrust/long, /datum/intent/sword/cut, /datum/intent/sword/strike, /datum/intent/sword/lunge)
 	gripped_intents = list(SPEAR_THRUST, /datum/intent/spear/cut, PARTIZAN_REND, /datum/intent/partizan/peel)
