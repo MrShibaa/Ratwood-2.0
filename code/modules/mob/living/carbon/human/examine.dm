@@ -1155,7 +1155,7 @@
 			else
 				. += span_greentext("<b>I can see their branding; they are owned by [ownership_info["name"]].</b>")
 
-		if(name in GLOB.court_agents)
+		if(name in GLOB.court_agents || (HAS_TRAIT(src, TRAIT_COURTAGENT)))
 			var/user_role = user.mind?.assigned_role || user.job
 			if(user_role in list("Grand Duke", "Grand Duchess", "Hand"))
 				. += span_greentext("<b>[m1] an agent of the court!</b>")

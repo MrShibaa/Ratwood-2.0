@@ -273,3 +273,4 @@
 	if(!.)
 		return
 	GLOB.court_agents += recruit.real_name
+	ADD_TRAIT(recruit, TRAIT_COURTAGENT, TRAIT_GENERIC)

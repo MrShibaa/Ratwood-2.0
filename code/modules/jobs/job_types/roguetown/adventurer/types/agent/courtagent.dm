@@ -6,6 +6,7 @@
 	total_positions = 2
 	spawn_positions = 2
 	round_contrib_points = 2
+	job_traits = list(TRAIT_STEELHEARTED, TRAIT_KEENEARS, TRAIT_COURTAGENT)
 	tutorial = "Whether acquired by merit, shrewd negotiation or fulfilled bounties, you have found yourself under the underhanded employ of the Hand. Fulfill desires and whims of the court that they would rather not be publicly known. Your position is anything but secure, and any mistake can leave you disowned and charged like the petty criminal are. Garrison and Court members know who you are."
 	min_pq = 5
 	job_reopens_slots_on_death = FALSE
@@ -15,7 +16,8 @@
 	obsfuscated_job = TRUE
 	class_setup_examine = FALSE
 	job_subclasses = list(
-		/datum/advclass/agent/sicaire
+		/datum/advclass/agent/sicaire,
+		/datum/advclass/agent/sicario
 	)
 
 //Hooking in here does not mess with their equipment procs
