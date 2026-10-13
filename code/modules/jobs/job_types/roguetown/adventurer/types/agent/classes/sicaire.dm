@@ -12,8 +12,7 @@
 	subclass_stats = list(
 		STATKEY_WIL = 2,
 		STATKEY_PER = 2,
-		STATKEY_INT = 1,
-		STATKEY_SPD = 3,
+		STATKEY_SPD = 2,
 		STATKEY_STR = -1
 	)
 	subclass_skills = list(
@@ -52,11 +51,11 @@
 				neck = /obj/item/clothing/head/roguetown/helmet/leather/armorhood/advanced
 				shirt = /obj/item/clothing/suit/roguetown/armor/gambeson/heavy/otavan
 				armor = /obj/item/clothing/suit/roguetown/armor/leather/heavy/coat
-				cloak = /obj/item/clothing/suit/roguetown/armor/longcoat
+				cloak = /obj/item/clothing/suit/roguetown/armor/longcoat/blue
 				backr = /obj/item/storage/backpack/rogue/satchel/black
 				gloves = /obj/item/clothing/gloves/roguetown/otavan
 				pants = /obj/item/clothing/under/roguetown/heavy_leather_pants/otavan
-				head = /obj/item/clothing/head/roguetown/roguehood/shalal/heavyhood/black
+				head = /obj/item/clothing/head/roguetown/roguehood/shalal/heavyhood/blue
 				shoes = /obj/item/clothing/shoes/roguetown/boots/otavan
 				wrists = /obj/item/clothing/wrists/roguetown/bracers/leather/heavy
 				backpack_contents = list(
@@ -80,15 +79,15 @@
 				r_hand = /obj/item/rogueweapon/knuckles
 				beltl = /obj/item/rogueweapon/stoneaxe/hurlbat
 				beltr = /obj/item/rogueweapon/stoneaxe/hurlbat
-				belt = /obj/item/storage/belt/rogue/leather/battleskirt/faulds/black
+				belt = /obj/item/storage/belt/rogue/leather/battleskirt/faulds/blue
 				neck = /obj/item/clothing/head/roguetown/helmet/leather/armorhood/advanced
 				shirt = /obj/item/clothing/suit/roguetown/armor/gambeson/heavy/otavan
 				armor = /obj/item/clothing/suit/roguetown/armor/leather/heavy/coat
-				cloak = /obj/item/clothing/suit/roguetown/armor/longcoat
+				cloak = /obj/item/clothing/suit/roguetown/armor/longcoat/blue
 				backr = /obj/item/storage/backpack/rogue/satchel/black
 				gloves = /obj/item/clothing/gloves/roguetown/otavan
 				pants = /obj/item/clothing/under/roguetown/heavy_leather_pants/otavan
-				head = /obj/item/clothing/head/roguetown/roguehood/shalal/heavyhood/black
+				head = /obj/item/clothing/head/roguetown/roguehood/shalal/heavyhood/blue
 				shoes = /obj/item/clothing/shoes/roguetown/boots/otavan
 				wrists = /obj/item/clothing/wrists/roguetown/bracers/leather/heavy
 				backpack_contents = list(
@@ -114,15 +113,15 @@
 				H.adjust_skillrank_up_to(/datum/skill/combat/knives, SKILL_LEVEL_EXPERT, TRUE)
 				beltl = /obj/item/rogueweapon/scabbard/sheath
 				r_hand = /obj/item/rogueweapon/huntingknife/idagger/steel/rondel
-				belt = /obj/item/storage/belt/rogue/leather/battleskirt/faulds/black
+				belt = /obj/item/storage/belt/rogue/leather/battleskirt/faulds/blue
 				neck = /obj/item/clothing/head/roguetown/helmet/leather/armorhood/advanced
 				shirt = /obj/item/clothing/suit/roguetown/armor/gambeson/heavy/otavan
 				armor = /obj/item/clothing/suit/roguetown/armor/leather/heavy/coat
-				cloak = /obj/item/clothing/suit/roguetown/armor/longcoat
+				cloak = /obj/item/clothing/suit/roguetown/armor/longcoat/blue
 				backr = /obj/item/storage/backpack/rogue/satchel/black
 				gloves = /obj/item/clothing/gloves/roguetown/otavan
 				pants = /obj/item/clothing/under/roguetown/heavy_leather_pants/otavan
-				head = /obj/item/clothing/head/roguetown/roguehood/shalal/heavyhood/black
+				head = /obj/item/clothing/head/roguetown/roguehood/shalal/heavyhood/blue
 				shoes = /obj/item/clothing/shoes/roguetown/boots/otavan
 				wrists = /obj/item/clothing/wrists/roguetown/bracers/leather/heavy
 				backpack_contents = list(
@@ -135,7 +134,9 @@
 					/obj/item/lockpickring/mundane = 1,
 				)
 
-/obj/item/clothing/head/roguetown/roguehood/shalal/heavyhood/black
-	color = CLOTHING_BLACK
-/obj/item/storage/belt/rogue/leather/battleskirt/faulds/black
-	color = CLOTHING_BLACK
+/obj/item/clothing/head/roguetown/roguehood/shalal/heavyhood/blue
+	color = CLOTHING_BLUE
+/obj/item/storage/belt/rogue/leather/battleskirt/faulds/blue
+	color = CLOTHING_BLUE
+/obj/item/clothing/suit/roguetown/armor/longcoat/blue
+	color = CLOTHING_BLUE
