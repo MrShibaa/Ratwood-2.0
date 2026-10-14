@@ -163,7 +163,7 @@
 	desc = fulldesc
 	return
 
-/obj/item/listeningdevice/inq/attack_right(mob/living/user)
+/obj/item/listeningdevice/agent/attack_right(mob/living/user)
 	if(!hidden)
 		alpha = 30
 		name = "thing"

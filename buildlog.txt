@@ -1,0 +1,36 @@
+Using vendored Bun 1.2.16
+:: Juke Build version 0.8.1
+=> Task ';' was not found.
+:: Available targets:
+ - all
+ - build
+ - bun
+ - clean-all
+ - clean
+ - dm-maps-include
+ - dm
+ - dm-test
+ - lint
+ - server
+ - test
+ - tg-font
+ - tgs
+ - tgui-analyze
+ - tgui-bench
+ - tgui-clean
+ - tgui-dev
+ - tgui-eslint
+ - tgui-lint
+ - tgui-prettier
+ - tgui-sonar
+ - tgui
+ - tgui-test
+ - tgui-tsc
+:: Available parameters:
+ --ci (type: boolean)
+ --define, -D (type: string[])
+ --dm-version (type: string)
+ --force-recut (type: boolean)
+ --no-warning, -I (type: string[])
+ --port, -p (type: string)
+ --warning, -W (type: string[])

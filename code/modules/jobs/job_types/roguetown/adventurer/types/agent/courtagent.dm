@@ -19,7 +19,8 @@
 		/datum/advclass/agent/sicaire,
 		/datum/advclass/agent/sicario,
 		/datum/advclass/agent/nachtjager,
-		/datum/advclass/agent/expendable
+		/datum/advclass/agent/expendable,
+		/datum/advclass/agent/arcane
 	)
 
 //Hooking in here does not mess with their equipment procs

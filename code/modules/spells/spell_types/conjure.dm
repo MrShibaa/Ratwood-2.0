@@ -61,7 +61,7 @@
 	var/delete_old = TRUE //TRUE to delete the last summoned object if it's still there, FALSE for infinite item stream weeeee
 
 /obj/effect/proc_holder/spell/targeted/conjure_item/cast(list/targets, mob/user = usr)
-	if (delete_old && conjured_item)
+	if(delete_old && conjured_item)
 		dispel_conjured_item()
 	else
 		for(var/mob/living/carbon/C in targets)
@@ -72,3 +72,4 @@
 	var/obj/item/new_item = new item_type
 	set_conjured_item(new_item)
 	return new_item
+
