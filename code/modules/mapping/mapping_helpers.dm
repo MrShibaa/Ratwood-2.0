@@ -188,6 +188,19 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 	icon = 'icons/effects/hidden_door.dmi'
 	icon_state = "hidden_door"
 
+/obj/effect/mapping_helpers/secret_door_creator/courtagent_hideout
+	name = "Court Agent's Hideout Secret Door Creator"
+	color = "#036bfc"
+	override_floor = FALSE
+	hidden_dc = 14
+	use_phrases = TRUE
+	lang = list(/datum/language/common)
+
+	manager_id = "court agent"
+	accessor_trait = TRAIT_AGENTHIDEOUT
+	memory_name = "court agent's"
+	var/list/vip = list(/datum/job/roguetown/hand, /datum/job/roguetown/adventurer/courtagent)
+
 	var/redstone_id
 
 	var/obj/structure/mineral_door/secret/door_type = /obj/structure/mineral_door/secret

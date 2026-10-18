@@ -824,6 +824,13 @@
 	icon_state = "brownkey"
 	lockid = "SlaveAuction"
 
+//Court agent key
+/obj/item/roguekey/courtagent
+	name = "Oddly shaped key"
+	desc = "An odd looking key.."
+	icon_state = "rustkey"
+	lockid = "AgentHideout"
+
 //custom key
 /obj/item/roguekey/custom
 	name = "custom key"

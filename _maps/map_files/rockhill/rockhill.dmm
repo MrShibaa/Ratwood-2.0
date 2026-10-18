@@ -1,4 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aaa" = (
+/turf/open/floor/rogue/tile,
+/area/rogue/under/cavewet)
 "aab" = (
 /obj/item/restraints/legcuffs/beartrap/armed,
 /turf/open/floor/rogue/dirt/road,
@@ -24,9 +27,102 @@
 /obj/structure/chair/stool/rogue,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/cavewet)
+"aai" = (
+/obj/structure/rack/rogue/shelf/biggest,
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/reagent_containers/glass/cup/wooden{
+	pixel_x = -7;
+	pixel_y = -9
+	},
+/obj/item/reagent_containers/glass/cup/wooden{
+	pixel_x = 8;
+	pixel_y = -8
+	},
+/obj/item/reagent_containers/glass/cup/wooden{
+	pixel_y = 3;
+	pixel_x = -8
+	},
+/obj/item/reagent_containers/glass/cup/wooden{
+	pixel_x = 8;
+	pixel_y = 3
+	},
+/turf/open/floor/rogue/tile,
+/area/rogue/under/cavewet)
 "aaj" = (
 /obj/machinery/light/rogue/firebowl/stump,
 /turf/open/floor/rogue/naturalstone,
+/area/rogue/under/cavewet)
+"aak" = (
+/obj/structure/rack/rogue/shelf/biggest,
+/obj/item/kitchen/fork{
+	pixel_x = -8;
+	pixel_y = -1
+	},
+/obj/item/kitchen/fork{
+	pixel_x = -8;
+	pixel_y = -1
+	},
+/obj/item/kitchen/fork{
+	pixel_x = -8;
+	pixel_y = -1
+	},
+/obj/item/kitchen/fork{
+	pixel_x = -8;
+	pixel_y = -1
+	},
+/obj/item/kitchen/fork{
+	pixel_x = -8;
+	pixel_y = -1
+	},
+/obj/item/kitchen/fork{
+	pixel_x = -8;
+	pixel_y = -1
+	},
+/obj/item/kitchen/spoon{
+	pixel_x = 9;
+	pixel_y = -1
+	},
+/obj/item/kitchen/spoon{
+	pixel_x = 9;
+	pixel_y = -1
+	},
+/obj/item/kitchen/spoon{
+	pixel_x = 9;
+	pixel_y = -1
+	},
+/obj/item/kitchen/spoon{
+	pixel_x = 9;
+	pixel_y = -1
+	},
+/obj/item/kitchen/spoon{
+	pixel_x = 9;
+	pixel_y = -1
+	},
+/obj/item/kitchen/spoon{
+	pixel_x = 9;
+	pixel_y = -1
+	},
+/obj/item/cooking/platter,
+/obj/item/cooking/platter,
+/obj/item/cooking/platter,
+/obj/item/cooking/platter,
+/obj/item/cooking/platter,
+/obj/item/cooking/platter,
+/turf/open/floor/rogue/tile,
+/area/rogue/under/cavewet)
+"aal" = (
+/obj/structure/closet/crate/chest/old_crate,
+/obj/item/reagent_containers/powder/flour,
+/obj/item/reagent_containers/powder/flour,
+/obj/item/reagent_containers/food/snacks/rogue/cheddar,
+/obj/item/reagent_containers/food/snacks/rogue/meat/coppiette,
+/obj/item/reagent_containers/food/snacks/rogue/meat/coppiette,
+/obj/item/reagent_containers/food/snacks/rogue/meat/coppiette,
+/obj/item/reagent_containers/food/snacks/rogue/crackerscooked,
+/obj/item/reagent_containers/food/snacks/rogue/crackerscooked,
+/obj/item/reagent_containers/food/snacks/rogue/crackerscooked,
+/turf/open/floor/rogue/tile,
 /area/rogue/under/cavewet)
 "aam" = (
 /obj/structure/roguemachine/escrow/tailor,
@@ -41,6 +137,10 @@
 	icon_state = "wooden_floor2"
 	},
 /area/rogue/indoors/town/shop)
+"aao" = (
+/obj/structure/table/wood/poor,
+/turf/open/floor/rogue/tile,
+/area/rogue/under/cavewet)
 "aap" = (
 /obj/machinery/light/rogue/candle/green{
 	pixel_y = -32
@@ -64,10 +164,69 @@
 	},
 /turf/open/floor/rogue/tile/masonic,
 /area/rogue/indoors/town/manor/rockhill)
+"aat" = (
+/obj/structure/table/wood/poor,
+/obj/item/millstone,
+/turf/open/floor/rogue/tile,
+/area/rogue/under/cavewet)
+"aau" = (
+/obj/structure/fluff/railing/border/east,
+/obj/structure/table/wood/poor,
+/turf/open/floor/rogue/tile,
+/area/rogue/under/cavewet)
+"aav" = (
+/obj/machinery/light/rogue/oven/west,
+/obj/machinery/light/rogue/hearth,
+/obj/item/cooking/pan,
+/turf/open/floor/rogue/tile,
+/area/rogue/under/cavewet)
+"aaw" = (
+/obj/structure/fluff/railing/border{
+	dir = 2
+	},
+/turf/open/floor/rogue/tile,
+/area/rogue/under/cavewet)
+"aax" = (
+/turf/open/floor/rogue/carpet,
+/area/rogue/under/cavewet)
 "aay" = (
 /obj/machinery/light/rogue/firebowl/standing/blue,
 /turf/open/floor/rogue/hexstone,
 /area/rogue/under/cave/goblinfort)
+"aaz" = (
+/obj/structure/chair/wood/rogue{
+	dir = 1
+	},
+/turf/open/floor/rogue/carpet,
+/area/rogue/under/cavewet)
+"aaA" = (
+/obj/structure/chair/wood/rogue{
+	dir = 4
+	},
+/turf/open/floor/rogue/carpet,
+/area/rogue/under/cavewet)
+"aaB" = (
+/obj/structure/table/wood/map,
+/turf/open/floor/rogue/carpet,
+/area/rogue/under/cavewet)
+"aaC" = (
+/obj/structure/table/wood/map/two,
+/turf/open/floor/rogue/carpet,
+/area/rogue/under/cavewet)
+"aaD" = (
+/obj/structure/table/wood/map/three,
+/turf/open/floor/rogue/carpet,
+/area/rogue/under/cavewet)
+"aaE" = (
+/obj/structure/chair/wood/rogue{
+	dir = 8
+	},
+/turf/open/floor/rogue/carpet,
+/area/rogue/under/cavewet)
+"aaF" = (
+/obj/structure/table/wood/map/four,
+/turf/open/floor/rogue/carpet,
+/area/rogue/under/cavewet)
 "aaG" = (
 /obj/structure/bed/rogue/inn,
 /obj/item/bedsheet/rogue/pelt,
@@ -76,6 +235,20 @@
 	},
 /turf/open/floor/rogue/herringbone,
 /area/rogue/under/town/basement)
+"aaH" = (
+/obj/structure/table/wood/map/five,
+/turf/open/floor/rogue/carpet,
+/area/rogue/under/cavewet)
+"aaI" = (
+/obj/structure/table/wood/map/six,
+/turf/open/floor/rogue/carpet,
+/area/rogue/under/cavewet)
+"aaJ" = (
+/obj/structure/chair/wood/rogue{
+	dir = 2
+	},
+/turf/open/floor/rogue/carpet,
+/area/rogue/under/cavewet)
 "aaK" = (
 /obj/structure/flora/newleaf,
 /obj/structure/fluff/railing/wood{
@@ -84,6 +257,58 @@
 	},
 /turf/open/floor/rogue/grassred,
 /area/rogue/outdoors/town/grove)
+"aaL" = (
+/obj/structure/bars,
+/turf/open/floor/rogue/tile,
+/area/rogue/under/cavewet)
+"aaM" = (
+/obj/structure/mineral_door/bars/tough{
+	lockid = "AgentHideout"
+	},
+/turf/open/floor/rogue/tile,
+/area/rogue/under/cavewet)
+"aaN" = (
+/obj/structure/mineral_door/wood/donjon/tough{
+	lockid = "AgentHideout"
+	},
+/turf/open/floor/rogue/tile,
+/area/rogue/under/cavewet)
+"aaO" = (
+/obj/effect/decal/cleanable/dirt/cobweb{
+	dir = 8
+	},
+/turf/open/floor/rogue/greenstone{
+	dir = 2
+	},
+/area/rogue/under/cavewet)
+"aaP" = (
+/obj/structure/bed/rogue/shit{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/cobweb,
+/turf/open/floor/rogue/tile,
+/area/rogue/under/cavewet)
+"aaQ" = (
+/obj/structure/bed/rogue/shit,
+/obj/effect/decal/cleanable/dirt/cobweb{
+	dir = 1
+	},
+/turf/open/floor/rogue/tile,
+/area/rogue/under/cavewet)
+"aaR" = (
+/obj/effect/decal/cleanable/dirt/cobweb,
+/turf/open/floor/rogue/greenstone{
+	dir = 2
+	},
+/area/rogue/under/cavewet)
+"aaS" = (
+/obj/structure/closet/crate/drawer,
+/turf/open/floor/rogue/tile,
+/area/rogue/under/cavewet)
+"aaT" = (
+/obj/structure/bookcase/random,
+/turf/open/floor/rogue/tile,
+/area/rogue/under/cavewet)
 "aaU" = (
 /obj/structure/mineral_door/wood{
 	locked = 1;
@@ -92,6 +317,10 @@
 	},
 /turf/open/floor/rogue/concrete,
 /area/rogue/under/town/basement/tavern)
+"aaV" = (
+/obj/effect/mapping_helpers/secret_door_creator,
+/turf/closed/wall/mineral/rogue/stone,
+/area/rogue/under/cavewet)
 "aaY" = (
 /obj/structure/flora/hotspring_rocks/grassy,
 /turf/open/floor/rogue/cobble/mossy,
@@ -170476,22 +170705,22 @@ whb
 whb
 whb
 whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
 whb
 whb
 swJ
@@ -170908,22 +171137,22 @@ whb
 whb
 whb
 whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
+wQS
+aaP
+aaa
+aaL
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+wQS
 whb
 whb
 swJ
@@ -171340,22 +171569,22 @@ whb
 whb
 whb
 whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
+wQS
+aaa
+aaa
+aaM
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+wQS
 whb
 whb
 swJ
@@ -171772,22 +172001,22 @@ whb
 whb
 whb
 whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
+wQS
+aaL
+aaL
+aaL
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+wQS
 whb
 whb
 swJ
@@ -172204,22 +172433,22 @@ whb
 whb
 whb
 whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
+wQS
+aaa
+aaa
+aaM
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+wQS
 whb
 whb
 swJ
@@ -172637,21 +172866,21 @@ gQh
 gQh
 jxS
 wQS
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
+aaQ
+aaa
+aaL
+aaa
+aaa
+aaa
+aax
+aaA
+aaA
+aax
+aaa
+aaa
+aaa
+aaa
+wQS
 whb
 whb
 swJ
@@ -173069,21 +173298,21 @@ sjG
 sjG
 sjG
 gQh
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
+gQh
+jxS
+gQh
+aaa
+aaa
+aaa
+aaJ
+aaF
+aaB
+aaz
+aaa
+aaa
+aaa
+aaa
+wQS
 whb
 whb
 swJ
@@ -173500,22 +173729,22 @@ jxS
 meZ
 aaf
 oIh
-jxS
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
+aaV
+aaR
+aaO
+aaN
+aaa
+aaa
+aaa
+aaJ
+aaH
+aaC
+aaz
+aaa
+aaa
+aaa
+aaa
+wQS
 whb
 whb
 swJ
@@ -173933,21 +174162,21 @@ quy
 gBA
 aaf
 gQh
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
+jxS
+gQh
+jxS
+aaa
+aaa
+aaa
+aaJ
+aaI
+aaD
+aaz
+aaa
+aaa
+aaa
+aai
+wQS
 whb
 whb
 swJ
@@ -174365,21 +174594,21 @@ gQh
 oFY
 oFY
 jxS
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
+wQS
+wQS
+wQS
+aaa
+aaa
+aaa
+aax
+aaE
+aaE
+aax
+aaa
+aaa
+aaa
+aak
+wQS
 whb
 whb
 swJ
@@ -174796,22 +175025,22 @@ whb
 whb
 whb
 whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
+wQS
+aaS
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aal
+wQS
 whb
 whb
 swJ
@@ -175228,22 +175457,22 @@ whb
 whb
 whb
 whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
+wQS
+aaT
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aao
+wQS
 whb
 swJ
 swJ
@@ -175660,22 +175889,22 @@ whb
 whb
 whb
 whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
+wQS
+aaT
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aat
+wQS
 whb
 aLJ
 swJ
@@ -176092,22 +176321,22 @@ whb
 whb
 whb
 whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
+wQS
+aaT
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aau
+wQS
 whb
 swJ
 swJ
@@ -176524,22 +176753,22 @@ whb
 whb
 whb
 whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
+wQS
+aaS
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaw
+aav
+wQS
 whb
 swJ
 swJ
@@ -176956,22 +177185,22 @@ soz
 scK
 whb
 whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
-whb
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
+wQS
 whb
 swJ
 swJ
