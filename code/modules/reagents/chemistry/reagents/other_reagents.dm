@@ -137,8 +137,11 @@
 			M.add_nausea(12) //should instant puke for clearification
 		else
 			H.adjust_hydration(hydration)
+			var/blood_restore = WATER_BLOOD_RESTORE
+			if(has_world_trait(/datum/world_trait/zizo_blood) && !is_zizo(H))
+				blood_restore = 2
 			if(M.get_blood_volume() < BLOOD_VOLUME_NORMAL)
-				M.set_blood_volume(min(M.get_blood_volume()+WATER_BLOOD_RESTORE, BLOOD_VOLUME_NORMAL))
+				M.set_blood_volume(min(M.get_blood_volume()+blood_restore, BLOOD_VOLUME_NORMAL))
 		if(M.bodytemperature > BODYTEMP_NORMAL_MIN + 5)	//drinking water lowers a persons temperature up to the 'normal' minimum
 			M.adjust_bodytemperature(-5)
 	..()
@@ -150,6 +153,10 @@
 	harmful = TRUE
 /datum/reagent/water/gross/sewage
 	taste_description = "repulsive sulfur and decaying shit"
+
+// Dirty water is everyday filth rather than a poison someone slipped in.
+/datum/reagent/water/gross/is_poison()
+	return FALSE
 
 /datum/reagent/water/gross/reaction_mob(mob/living/L, method=TOUCH, reac_volume)
 	if(method == INGEST) // Make sure you DRANK the toxic water before giving damage
@@ -169,11 +176,26 @@
 	//I am not putting in a NASTY_EATER check for this. He's the god of bloodshed, not the god of coprophagia.
 	M.adjustToxLoss(4) //Horrible day for poop drinkers
 	M.add_nausea(20)
+
 /datum/chemical_reaction/grosswaterboil //boiling water purifies it
 	name = "gross water purification"
 	id = /datum/reagent/water
 	results = list(/datum/reagent/water = 1)
 	required_reagents = list(/datum/reagent/water/gross = 1)
+	required_temp = 375
+
+/datum/chemical_reaction/holywaterboil //boiling holy water mundanifies it
+	name = "holy water mundanification"
+	id = /datum/reagent/water
+	results = list(/datum/reagent/water = 1)
+	required_reagents = list(/datum/reagent/water/blessed = 1)
+	required_temp = 375
+
+/datum/chemical_reaction/cursedwaterboil //boiling cursed water mundanifies it
+	name = "cursed water mundanification"
+	id = /datum/reagent/water
+	results = list(/datum/reagent/water = 1)
+	required_reagents = list(/datum/reagent/water/cursed = 1)
 	required_temp = 375
 
 /datum/reagent/water/bathwater

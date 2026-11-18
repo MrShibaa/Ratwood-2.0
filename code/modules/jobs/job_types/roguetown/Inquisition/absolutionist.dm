@@ -32,6 +32,7 @@
 		TRAIT_RITUALIST, //Handles conversions, too, now.
 		TRAIT_SELF_AWARE //Shows full damage numbers on self-diagnosis, for QOL.
 	)
+	vice_restrictions = list(/datum/charflaw/hemophage, /datum/charflaw/silverweakness)
 
 	advclass_cat_rolls = list(CTAG_ABSOLVER = 2)
 	job_subclasses = list(
@@ -44,6 +45,7 @@
 	outfit = /datum/outfit/job/roguetown/absolver/basic
 	subclass_languages = list(/datum/language/otavan)
 	category_tags = list(CTAG_ABSOLVER)
+	pure_heart = TRUE
 	subclass_stats = list(
 		STATKEY_CON = 7,
 		STATKEY_WIL = 3,
@@ -97,7 +99,7 @@
 	shoes = /obj/item/clothing/shoes/roguetown/boots/psydonboots
 	mask = /obj/item/clothing/head/roguetown/helmet/blacksteel/psythorns
 	head = /obj/item/clothing/head/roguetown/helmet/heavy/absolver
-	id = /obj/item/clothing/ring/signet/silver
+	id = /obj/item/clothing/ring/signet/silver/inqscomm
 	backpack_contents = list( // currently full
 		/obj/item/book/rogue/bibble/psy = 1,
 		/obj/item/natural/bundle/cloth/bandage/full = 2,
